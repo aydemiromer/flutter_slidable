@@ -64,7 +64,7 @@ class CustomSlidableAction extends StatelessWidget {
   ///
   /// If this callback is null, then the action will be disabled.
   /// {@endtemplate}
-  final SlidableActionCallback? onPressed;
+  final VoidCallback? onPressed;
 
   /// Typically the action's icon or label.
   final Widget child;
@@ -140,7 +140,7 @@ class SlidableAction extends StatelessWidget {
   final bool autoClose;
 
   /// {@macro slidable.actions.onPressed}
-  final SlidableActionCallback? onPressed;
+  final VoidCallback? onPressed;
 
   /// An icon to display above the [label].
   final IconData? icon;
